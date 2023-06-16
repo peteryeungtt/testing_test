@@ -13,4 +13,7 @@ describe('capitalize', () => {
   test('throws an error for non-string input', () => {
     expect(() => capitalize(123)).toThrow('Input should be a string');
   });
+  test('does not change a string with the first character already capitalized', () => {
+    expect(capitalize('Hello')).toBe('Hello');
+  });
 });
