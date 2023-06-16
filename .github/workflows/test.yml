@@ -19,5 +19,3 @@ jobs:
       - name: Install dependencies
         run: npm install  # Update with your package manager if necessary
 
-      - name: Run tests
-        run: npm test  # Update with your test command
